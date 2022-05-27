@@ -155,7 +155,7 @@
             this.textBoxNombre.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.textBoxNombre.Location = new System.Drawing.Point(110, 56);
             this.textBoxNombre.Name = "textBoxNombre";
-            this.textBoxNombre.Size = new System.Drawing.Size(218, 25);
+            this.textBoxNombre.Size = new System.Drawing.Size(379, 25);
             this.textBoxNombre.TabIndex = 9;
             // 
             // textBoxCorreo
@@ -163,7 +163,7 @@
             this.textBoxCorreo.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.textBoxCorreo.Location = new System.Drawing.Point(110, 96);
             this.textBoxCorreo.Name = "textBoxCorreo";
-            this.textBoxCorreo.Size = new System.Drawing.Size(218, 25);
+            this.textBoxCorreo.Size = new System.Drawing.Size(379, 25);
             this.textBoxCorreo.TabIndex = 10;
             // 
             // textBoxparcial1

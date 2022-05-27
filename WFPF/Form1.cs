@@ -119,7 +119,6 @@ namespace WFPF
             if (oAlumnos.nombre != null)
             {
 
-
                 oAlumnos = DatosFormulario();
                 int respuesta = srvAlumno.actualizarAlumno(oAlumnos);
 
@@ -142,10 +141,8 @@ namespace WFPF
 
         private void buttonCrearAlumno_Click(object sender, EventArgs e)
         {
-            if (oAlumnos.nombre != null)
+            if (textBoxNombre.Text != "") 
             {
-
-
                 oAlumnos = DatosFormulario();
                 int respuesta = srvAlumno.CrearAlumno(oAlumnos);
 
