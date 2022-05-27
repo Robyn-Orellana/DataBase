@@ -116,7 +116,7 @@ namespace WFPF
 
         private void buttonActualizar_Click(object sender, EventArgs e)
         {
-            if (oAlumnos.nombre != null)
+            if (textBoxNombre.Text != "")
             {
 
                 oAlumnos = DatosFormulario();
